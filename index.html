@@ -3,37 +3,142 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Página Web</title>
+    <title>Miguel Ángel Ordoñez Romero - Portafolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Estilos para el encabezado */
+header {
+    background-color:#3E8EDE;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+/* Estilos para la navegación */
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Estilos para las secciones */
+section {
+    padding: 40px;
+    background-color: #827F81;
+    margin-bottom: 20px;
+}
+
+section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+section ul {
+    list-style: none;
+    padding: 0;
+}
+
+section ul li {
+    margin-bottom: 10px;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: rgba(236, 69, 153, 0.733);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+    </style>
 </head>
 <body>
     <header>
-        <h1>Bienvenido a Miguelo Web</h1>
+        <h1>Miguel Ángel Ordoñez Romero</h1>
+        <img src="https://scontent.fqro1-1.fna.fbcdn.net/v/t39.30808-6/354049129_10229636824680538_6117635089617599805_n.jpg?stp=cp6_dst-jpg&_nc_cat=101&ccb=1-7&_nc_sid=813123&_nc_eui2=AeGIaNVfI_7Rnew2_bOS6lv_D6VxSXvNQ44PpXFJe81DjgUQFAsEDPCom4AWBLODWVY&_nc_ohc=IJffSHP8wNcAX9zKDOZ&_nc_ht=scontent.fqro1-1.fna&oh=00_AfB4TCN5oNhpsGwSO32QuCu7lofNYL8Je4w9Y0srzRgyiA&oe=651B48FC">
+        <p>Ingeniero en Telecomunicaciones y Desarrollador Web</p>
     </header>
+
     <nav>
         <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Acerca de</a></li>
-            <li><a href="#">Servicios</a></li>
-            <li><a href="#">Contacto</a></li>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#biografia">Biografía</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
         </ul>
     </nav>
-    <main>
-        <section>
-            <h2>Acerca de Nosotros</h2>
-            <p>Somos una empresa dedicada a aprender ChatGPT</p>
-        </section>
-        <section>
-            <h2>Nuestros Servicios</h2>
-            <ul>
-                <li>ISABELLA</li>
-                <li>ANDRES</li>
-                <li>TATIANA</li>
-            </ul>
-        </section>
-    </main>
+
+    <section id="inicio">
+        <h2>Inicio</h2>
+        <p>Bienvenido a mi portafolio personal. Aquí puedes conocer más sobre mí y mis proyectos.</p>
+    </section>
+
+    <section id="biografia">
+        <h2>Biografía</h2>
+        <p>Soy Miguel Ángel Ordoñez Romero, estudiante de octavo semestre de Ingeniería en Telecomunicaciones y Desarrollo Web. Me apasiona la tecnología y el desarrollo web.</p>
+    </section>
+
+    <section id="proyectos">
+        <h2>Proyectos</h2>
+        <ul>
+            <li>
+                <h3>Proyecto 1</h3>
+                <p>Descripción del proyecto 1.</p>
+            </li>
+            <li>
+                <h3>Proyecto 2</h3>
+                <p>Descripción del proyecto 2.</p>
+            </li>
+        </ul>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Puedes contactarme en:</p>
+        <ul>
+            <li>Email: miguelo566@hotmail.com</li>
+            <li>Telefono: 2215828795</li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/tuusuario">LinkedIn</a></li>
+            <li>GitHub: <a href="https://github.com/tuusuario">GitHub</a></li>
+        </ul>
+    </section>
+
     <footer>
-        <p>&copy; 2023 Mi Página Web Miguelo</p>
+        <p>Derechos de autor © 2023 Miguel Ángel Ordoñez Romero</p>
     </footer>
 </body>
 </html>
+
 
